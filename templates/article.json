@@ -1,0 +1,376 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {
+      }
+    },
+    "ff6995a5-8fcf-4e0b-ab52-bafcc5ba0aa5": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Use_Cases_Desk_4_504735dc-4494-42d5-b9e8-aa2616f88eb1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "bf1a5890-598e-4514-b237-5c377aea589f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15974154207406__bf1a5890-598e-4514-b237-5c377aea589f-167061431926bfc3e7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>What are the top five causes of tinnitus?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "d1c799ba-08ef-4d71-bbd7-6e046369beaf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you ever hear a ringing in your ears? <\/p><p>You might be quietly reading a book in your favorite nook, settling down to sleep after a long day, or even just going about your daily life – then suddenly you realize you can hear a small, high-pitched whine that reverberates around your head. Maybe you ask somebody close to you if they can hear it too, but no – it’s just you. <\/p><p>If this sounds familiar, then you’ve almost certainly experienced <a href=\"https:\/\/www.loopearplugs.com\/blogs\/blog\/what-is-tinnitus\" target=\"_blank\" title=\"https:\/\/www.loopearplugs.com\/blogs\/blog\/what-is-tinnitus\"><span style=\"text-decoration:underline\">tinnitus<\/span><\/a>. <\/p><p>But tinnitus doesn’t just manifest as a ringing in your ears, it can also give you the sensations of buzzing, hissing, chirping, whistling, and even roaring. Basically what we’re trying to say is that it isn’t a particularly pleasant thing to experience. <\/p><p>But what are the real causes of tinnitus? And how can you help to prevent it? Let’s take a look… <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974154207406__bf1a5890-598e-4514-b237-5c377aea589f-167061431926bfc3e7-0",
+        "d1c799ba-08ef-4d71-bbd7-6e046369beaf"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "94b2ac5a-f6e4-4b39-bfc3-d28d5a9db114": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15974154207406__94b2ac5a-f6e4-4b39-bfc3-d28d5a9db114-16706143707751b6f9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The top 5 causes of tinnitus<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974154207406__94b2ac5a-f6e4-4b39-bfc3-d28d5a9db114-16706143707751b6f9-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "85a764b5-6c81-46f9-b23d-aba15190b009": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15974154207406__85a764b5-6c81-46f9-b23d-aba15190b009-1670614173939d1b0f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "1. Getting older",
+            "heading_size": "h1"
+          }
+        },
+        "template--15974154207406__85a764b5-6c81-46f9-b23d-aba15190b009-1670614173939d1b0f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The cause<\/strong> <\/p><p>Your hearing works by the tiny, delicate hairs in your inner ear – or cochlea – vibrating in response to sound waves. This movement triggers an electrical signal which travels up your auditory nerve to your brain, which then interprets the sound. <\/p><p>All pretty cool stuff. However, as you get older these hairs can become bent and broken, which then causes them to leak random electrical impulses to your brain – causing tinnitus. <\/p><p><strong>The prevention<\/strong> <\/p><p>Many people have tried, but unfortunately there isn’t a way to prevent aging…yet. Until that fateful day comes, we’re just going to have to accept that we’re all going to get older and our hearing won’t be as sharp. But that doesn’t mean that you can’t protect your hearing in the meantime, such as by staying away from overly loud environments. <\/p><p>Speaking of which, let’s get to point two… <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15974154207406__85a764b5-6c81-46f9-b23d-aba15190b009-1670614173939d1b0f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15974154207406__85a764b5-6c81-46f9-b23d-aba15190b009-1670614173939d1b0f-0",
+        "template--15974154207406__85a764b5-6c81-46f9-b23d-aba15190b009-1670614173939d1b0f-1",
+        "template--15974154207406__85a764b5-6c81-46f9-b23d-aba15190b009-1670614173939d1b0f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/getting-older-causes-tinnitus.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b53ac30b-1243-45a4-bc22-7db6d46c78b9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15974154207406__b53ac30b-1243-45a4-bc22-7db6d46c78b9-167061449352624edc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2. Loud noise exposure<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15974154207406__b53ac30b-1243-45a4-bc22-7db6d46c78b9-167061449352624edc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The cause<\/strong> <\/p><p>There are times when you simply can’t help but be in loud places. Whether that’s on a commuter train on your way to work, living near a construction site, or one of the many other loud environments that we experience day to day. <\/p><p>High-decibel environments are one of the common causes of tinnitus, but while we can’t necessarily always avoid noise exposure, we can take steps to <a href=\"\/collections\/quiet-experience\" title=\"Loop Earplugs\">protect our ears<\/a> when things get a bit loud. <\/p><p><strong>The prevention<\/strong> <\/p><p>Whenever you are knowingly entering a loud environment such as a busy bar, concert, or sports event, make sure that you are taking steps to protect your hearing from prolonged high noise levels. This can be done through the use of earplugs, which can be used to help filter out harmful sound waves and protect your eardrums.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974154207406__b53ac30b-1243-45a4-bc22-7db6d46c78b9-167061449352624edc-0",
+        "template--15974154207406__b53ac30b-1243-45a4-bc22-7db6d46c78b9-167061449352624edc-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ddb25708-9747-404a-8c71-d1853b1d9e00": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15974154207406__ddb25708-9747-404a-8c71-d1853b1d9e00-1670614173939d1b0f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "3. Ear blockages",
+            "heading_size": "h1"
+          }
+        },
+        "template--15974154207406__ddb25708-9747-404a-8c71-d1853b1d9e00-1670614173939d1b0f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The cause<\/strong> <\/p><p>Can a buildup of wax cause tinnitus? Absolutely. <\/p><p>Your ears are self-cleaning. Whenever you move your jaw, the wax inside your ear canal moves towards the opening where it’ll either fall out, dry up, or flake. However, you can still get a buildup of wax through an ear infection, or just if your ears are producing more wax than your canal can shift. You can also have a foreign body get trapped in your canal, or an infection can cause your canal to fill with liquid.  <\/p><p>When this happens, the blockage can cause a change of pressure inside your ear, which can be one of the major causes of tinnitus. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974154207406__ddb25708-9747-404a-8c71-d1853b1d9e00-1670614173939d1b0f-0",
+        "template--15974154207406__ddb25708-9747-404a-8c71-d1853b1d9e00-1670614173939d1b0f-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LP_Festival_Urban_Desktop_Lifestyle_dd214cd5-d16f-41d1-9564-0ac776d11e28.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "481ec012-a958-4da4-8b79-17aa81425227": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15974154207406__481ec012-a958-4da4-8b79-17aa81425227-167061449352624edc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The prevention<\/strong> <\/p><p>Besides normal hygiene habits and not sticking strange things into your ear, it may be difficult to avoid an infection or a foreign body. However, you can prevent a buildup of wax by completely avoiding cotton swabs, otherwise known as Q-tips. <\/p><p>While these swabs may be branded as a method of cleaning your ears, they actually do far more harm than good. Pushing anything into your ear will likely cause the wax to be pushed further into your canal and become compacted against your eardrum, leading to hearing loss and tinnitus. <\/p><p>So while it’s good hygiene practice to clean around the outside of your ears, let nature take care of the inside.<\/p>"
+          }
+        },
+        "09c6d883-c52c-421c-a5a2-ee04482539bd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>4. Various diseases and disorders<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "c001629b-09a5-4a3a-83d5-7e4469a01cc5": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The cause<\/strong> <\/p><p>Your ears are sensitive. And because of this, they are susceptible to a number of infections, diseases, and disorders. Things such as Ménière's disease, otosclerosis, Eustachian tube dysfunction, and temporomandibular joint disorders can all unfortunately cause tinnitus. <\/p><p><strong>The prevention<\/strong> <\/p><p>Many of these diseases and disorders are caused by issues beyond our control. However, there are a number of medicines that can counteract their adverse effects. If you believe you are suffering from any of these conditions, make sure to visit your physician at the earliest convenience.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974154207406__481ec012-a958-4da4-8b79-17aa81425227-167061449352624edc-1",
+        "09c6d883-c52c-421c-a5a2-ee04482539bd",
+        "c001629b-09a5-4a3a-83d5-7e4469a01cc5"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "48e34c7e-8bdf-48c7-b613-81097fccf82a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15974154207406__48e34c7e-8bdf-48c7-b613-81097fccf82a-1670614173939d1b0f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "5. Alcohol, tobacco, and caffeine",
+            "heading_size": "h1"
+          }
+        },
+        "template--15974154207406__48e34c7e-8bdf-48c7-b613-81097fccf82a-1670614173939d1b0f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The cause<\/strong> <\/p><p>A nice cup of coffee in the morning can make all of the difference. Unfortunately, it can also increase the likelihood of experiencing tinnitus. As can drinking alcohol, and smoking cigarettes or cigars.  <\/p><p><strong>The prevention<\/strong> <\/p><p>While we’re not saying that you have to completely cut out your coffee, wine, or cigarettes, having each of these in moderation can greatly reduce the chances of experiencing tinnitus. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974154207406__48e34c7e-8bdf-48c7-b613-81097fccf82a-1670614173939d1b0f-0",
+        "template--15974154207406__48e34c7e-8bdf-48c7-b613-81097fccf82a-1670614173939d1b0f-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Stop-ringing-ears-smoking-1024x683.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "69a5db66-8899-47bf-8dbe-7740e90101f2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15974154207406__69a5db66-8899-47bf-8dbe-7740e90101f2-167061449352624edc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Take care of your ears<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15974154207406__69a5db66-8899-47bf-8dbe-7740e90101f2-167061449352624edc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These five common causes of tinnitus are just the tip of the iceberg. It would be near impossible to list all the causes of tinnitus because there are more and more being discovered each day, and it can vary from person to person. Some people experience tinnitus in one ear only, while others suffer in both ears. Some may only experience tinnitus at night, while others may hear it constantly.  <\/p><p>But if there’s one thing that rings true no matter what, it’s that you should always take care and protect your ears. <\/p>"
+          }
+        },
+        "template--15974154207406__69a5db66-8899-47bf-8dbe-7740e90101f2-167061449352624edc-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Earplugs to preven tinnitus",
+            "button_link": "\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15974154207406__69a5db66-8899-47bf-8dbe-7740e90101f2-167061449352624edc-0",
+        "template--15974154207406__69a5db66-8899-47bf-8dbe-7740e90101f2-167061449352624edc-1",
+        "template--15974154207406__69a5db66-8899-47bf-8dbe-7740e90101f2-167061449352624edc-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "bf4f9cef-ca19-4034-b928-6235f9f81275": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "quiet",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ff6995a5-8fcf-4e0b-ab52-bafcc5ba0aa5",
+    "bf1a5890-598e-4514-b237-5c377aea589f",
+    "94b2ac5a-f6e4-4b39-bfc3-d28d5a9db114",
+    "85a764b5-6c81-46f9-b23d-aba15190b009",
+    "b53ac30b-1243-45a4-bc22-7db6d46c78b9",
+    "ddb25708-9747-404a-8c71-d1853b1d9e00",
+    "481ec012-a958-4da4-8b79-17aa81425227",
+    "48e34c7e-8bdf-48c7-b613-81097fccf82a",
+    "69a5db66-8899-47bf-8dbe-7740e90101f2",
+    "bf4f9cef-ca19-4034-b928-6235f9f81275"
+  ]
+}

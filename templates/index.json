@@ -1,0 +1,455 @@
+{
+  "sections": {
+    "1bedd7f3-5ca1-448d-ad26-e79a24cc349a": {
+      "type": "loop-hero-banner",
+      "blocks": {
+        "e260374e-7c62-4923-8cb8-6885d46f3c53": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIVE LOOPS \nTHIS YEAR",
+            "heading_max_width": 100,
+            "heading_color": "#ffffff"
+          }
+        },
+        "99aa0238-40eb-48f3-a578-9023eb84b0ff": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "<p>A range of earplugs for music, noise sensitivity and focus. There’s a Loop for everyone on your list.<\/p>",
+            "subheading_max_width": 80,
+            "subheading_color": "#252427"
+          }
+        },
+        "f2ca0081-0963-4622-98c0-a6e4f0aa3826": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop all earplugs",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button2_label": "Help me choose",
+            "button2_link": "\/",
+            "button2_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "e260374e-7c62-4923-8cb8-6885d46f3c53",
+        "99aa0238-40eb-48f3-a578-9023eb84b0ff",
+        "f2ca0081-0963-4622-98c0-a6e4f0aa3826"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "overlay_mobile": false,
+        "image": "shopify:\/\/shop_images\/Banner_Header_3_Desktop.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Banner_Header_3c_Mobile.jpg"
+      }
+    },
+    "f6f4f276-b004-483c-b80a-ececc2c49d2d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17168669081913__f6f4f276-b004-483c-b80a-ececc2c49d2d-167032097371fc6339-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NYC_logo.png",
+            "title": "Top pick earplugs for concerts",
+            "text": "<p>\"The first earplug every tester said would be happy to wear regularly.\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17168669081913__f6f4f276-b004-483c-b80a-ececc2c49d2d-167032097371fc6339-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rolling_stones_logo.png",
+            "title": "You've never seen an earplug look this good",
+            "text": "<p>\"Comfort and sound aside, what they’ve really got going on is style.\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17168669081913__f6f4f276-b004-483c-b80a-ececc2c49d2d-167032097371fc6339-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wired.png",
+            "title": "The best reusable earplugs for sleeping and live shows",
+            "text": "<p>\"Feel free to move around, dance and sing; they’re not going anywhere.\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17168669081913__f6f4f276-b004-483c-b80a-ececc2c49d2d-167032097371fc6339-0",
+        "template--17168669081913__f6f4f276-b004-483c-b80a-ececc2c49d2d-167032097371fc6339-1",
+        "template--17168669081913__f6f4f276-b004-483c-b80a-ececc2c49d2d-167032097371fc6339-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 88,
+        "padding_bottom": 88
+      }
+    },
+    "1d5d2ea6-a74c-4f79-86b8-f74eb7a40184": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17168669081913__1d5d2ea6-a74c-4f79-86b8-f74eb7a40184-1670321209dcdc2fde-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bring on the noise",
+            "heading_size": "h1"
+          }
+        },
+        "template--17168669081913__1d5d2ea6-a74c-4f79-86b8-f74eb7a40184-1670321209dcdc2fde-1": {
+          "type": "text",
+          "settings": {
+            "text": "Choose how you hear the world with Loop. Backed by years of continuous R&D, our certified hearing protection is the perfect balance between noise reduction and clarity – on any occasion.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17168669081913__1d5d2ea6-a74c-4f79-86b8-f74eb7a40184-1670321209dcdc2fde-0",
+        "template--17168669081913__1d5d2ea6-a74c-4f79-86b8-f74eb7a40184-1670321209dcdc2fde-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_Why_Desktop.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "e2571ec9-ed67-417d-951a-d7a2a3dd7af5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17168669081913__e2571ec9-ed67-417d-951a-d7a2a3dd7af5-167032460749126f45-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How most people use Loop<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17168669081913__e2571ec9-ed67-417d-951a-d7a2a3dd7af5-167032460749126f45-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "b3328531-785d-420a-b5f5-96dc611a5b2b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17168669081913__b3328531-785d-420a-b5f5-96dc611a5b2b-1670324748f3718ec4-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Use_Cases_Desk_1_4163ffe8-8a09-4c27-8968-29166a4086a2.jpg",
+            "heading": "Noise sensitivity",
+            "heading_size": "h1",
+            "subheading": "Manage your anxiety and experience true calm.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17168669081913__b3328531-785d-420a-b5f5-96dc611a5b2b-1670324748f3718ec4-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Use_Cases_Desk_2_32f8151d-9129-4eca-ab0a-40e794184eb3.jpg",
+            "heading": "Sleeping & Napping",
+            "heading_size": "h1",
+            "subheading": "Fall asleep and stay asleep.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "2686226a-f25c-48e8-9138-c5d55d54668b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Use_Cases_Desk_3_ebea2958-4e82-4669-8072-ef4f13ce6027.jpg",
+            "heading": "Focus",
+            "heading_size": "h1",
+            "subheading": "Increase your productivity 3x by removing noisy distractions.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "3bc21252-dd08-432e-9d8a-3ff95dd79f96": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Use_Cases_Desk_4_34f74f80-8543-4c4d-b6c4-b03966e6be2e.jpg",
+            "heading": "Nightlife & events",
+            "heading_size": "h1",
+            "subheading": "Experience the magic, while protecting your ears in style.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "585fb82f-e09c-4839-88c5-edd62562ce34": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Use_Cases_Desk_5_9a988d56-1033-4345-b86b-569db65d0a44.jpg",
+            "heading": "Motorcycling",
+            "heading_size": "h1",
+            "subheading": "Reduce the noise, enjoy the ride.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17168669081913__b3328531-785d-420a-b5f5-96dc611a5b2b-1670324748f3718ec4-0",
+        "template--17168669081913__b3328531-785d-420a-b5f5-96dc611a5b2b-1670324748f3718ec4-1",
+        "2686226a-f25c-48e8-9138-c5d55d54668b",
+        "3bc21252-dd08-432e-9d8a-3ff95dd79f96",
+        "585fb82f-e09c-4839-88c5-edd62562ce34"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about how people use Loop"
+      }
+    },
+    "d4f6f93e-476c-490c-8cef-0e0442f376c4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15974154174638__d4f6f93e-476c-490c-8cef-0e0442f376c4-16706117867ceebd64-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Take control over how your life sounds<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974154174638__d4f6f93e-476c-490c-8cef-0e0442f376c4-16706117867ceebd64-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "53c96d5d-cc26-402f-844f-194f5d6b3773": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "quiet-experience",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b9509a30-f013-42f0-8473-34d058695cff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15974154174638__b9509a30-f013-42f0-8473-34d058695cff-1670611271a0a4c0f5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Loop x Tomorrowland<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15974154174638__b9509a30-f013-42f0-8473-34d058695cff-1670611271a0a4c0f5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An exclusive set of Experience Earplugs designed together with Tomorrowland.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974154174638__b9509a30-f013-42f0-8473-34d058695cff-1670611271a0a4c0f5-0",
+        "template--15974154174638__b9509a30-f013-42f0-8473-34d058695cff-1670611271a0a4c0f5-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "804ef37e-7500-4eb3-9c64-b8553161a7ba": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=Mwwm-K5FhlA",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0b25150e-37c6-4b6f-8183-6c2588205260": {
+      "type": "loop-video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "text_alignment": "left",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ea9e93c536de4015992062357552b9c8.mp4",
+        "video_autoplay": true,
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "05a9f5ba-855c-4510-9e8a-913b6344345c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17168669081913__05a9f5ba-855c-4510-9e8a-913b6344345c-1670535799664a3eae-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Follow us on instagram<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17168669081913__05a9f5ba-855c-4510-9e8a-913b6344345c-1670535799664a3eae-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 20
+      }
+    },
+    "1f181593-a5f7-4f39-a94e-2820541ae4e1": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "0c1ae064-9737-4a78-8196-3aa54f68c535": {
+      "type": "rich-text",
+      "blocks": {
+        "e9aa9daa-ebbe-4428-9ad0-92aff63c4bf4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Follow Loop",
+            "button_link": "https:\/\/www.instagram.com\/loopearplugs\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "e9aa9daa-ebbe-4428-9ad0-92aff63c4bf4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "1bedd7f3-5ca1-448d-ad26-e79a24cc349a",
+    "f6f4f276-b004-483c-b80a-ececc2c49d2d",
+    "1d5d2ea6-a74c-4f79-86b8-f74eb7a40184",
+    "e2571ec9-ed67-417d-951a-d7a2a3dd7af5",
+    "b3328531-785d-420a-b5f5-96dc611a5b2b",
+    "d4f6f93e-476c-490c-8cef-0e0442f376c4",
+    "53c96d5d-cc26-402f-844f-194f5d6b3773",
+    "b9509a30-f013-42f0-8473-34d058695cff",
+    "804ef37e-7500-4eb3-9c64-b8553161a7ba",
+    "0b25150e-37c6-4b6f-8183-6c2588205260",
+    "05a9f5ba-855c-4510-9e8a-913b6344345c",
+    "1f181593-a5f7-4f39-a94e-2820541ae4e1",
+    "0c1ae064-9737-4a78-8196-3aa54f68c535"
+  ]
+}

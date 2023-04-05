@@ -1,0 +1,16 @@
+/* Color swatch styles */
+.product-form__input label.color-swatch {
+  width: 30px !important;
+  height: 30px !important;
+  padding: 2px !important;
+  background-clip: content-box;
+}
+
+.product-form__input input[type='radio']:checked+label.color-swatch {
+  border-color: #000 !important;
+  border-width: 2px;
+}
+
+.summary__title svg {
+  fill: #766294 !important;
+}

@@ -1,0 +1,11 @@
+/* Utility classes */
+@media screen and (max-width: 749px) {
+  .mob-hide {
+    display: none !important;
+  }
+}
+
+/* Hide empty badges */
+.badge:empty {
+  display: none;
+}

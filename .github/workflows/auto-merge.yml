@@ -1,0 +1,36 @@
+name: Merge to store themes
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "templates/*.json"
+      - "config/*.json"
+      - "locales/*.json"
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - "templates/*.json"
+      - "config/*.json"
+      - "locales/*.json"
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: merge
+        uses: mtanzi/action-automerge@v1
+        id: merge-EU
+        with:
+          github_token: ${{ github.token }}
+          source: "main"
+          target: "live/EU"
+      - name: merge
+        uses: mtanzi/action-automerge@v1
+        id: merge-JP
+        with:
+          github_token: ${{ github.token }}
+          source: "main"
+          target: "live/JP"

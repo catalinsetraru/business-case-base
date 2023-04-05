@@ -1,0 +1,3 @@
+.banner .banner__content .banner__box {
+  width: clamp(650px, 60%, 100%);
+}
