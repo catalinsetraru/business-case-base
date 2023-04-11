@@ -1,0 +1,26 @@
+<div class="info_blocks">
+  <div class="info_block">
+    <p class="info_title">{{ block.settings.first_upText }}</p>
+    <hr class="solid">
+    <p class="info_content">{{ block.settings.first_downText }}</p>
+    <a class="learn_more"></a>
+  </div>
+
+  <div class="info_block">
+    <p class="info_title">{{ block.settings.second_upText }}</p>
+    <hr class="solid">
+    <p class="info_content">{{ block.settings.second_downText }}</p>
+    {%- if block.settings.discover_engage != blank -%}
+      <a class="learn_more" href="{{ block.settings.engage_product.url }}">{{ block.settings.discover_engage }}</a>
+    {%- endif -%}
+  </div>
+
+  <div class="info_block">
+    <p class="info_title">{{ block.settings.third_upText }}</p>
+    <hr class="solid">
+    <p class="info_content">{{ block.settings.third_downText }}</p>
+    {%- if block.settings.discover_experience != blank -%}
+      <a class="learn_more" href="{{ block.settings.experience_product.url }}">{{ block.settings.discover_experience }}</a>
+    {%- endif -%}
+  </div>
+</div>
