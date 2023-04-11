@@ -1,0 +1,254 @@
+{{ 'section-comparison.css' | asset_url | stylesheet_tag }}
+
+<div class="product_comparison product_comparison--{{ section.id }}">
+  <div class="page-width">
+
+    {%- liquid 
+      for block in section.blocks
+        case block.type
+
+          when 'product' 
+            render 'comparison-product_blocks', block: block, section: section
+
+          when 'info'
+            render 'comparison-info_blocks', block: block 
+
+          when 'icon' 
+            render 'comparison-icon_with_text', block: block 
+          
+          when 'divider'
+            render 'comparison-divider', block: block
+
+          when 'image'
+            render 'comparison-images', block: block
+
+        endcase
+      endfor
+    -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Product comparison",
+  "settings": [
+    {
+      "type": "text",
+      "id": "buy_button",
+      "label": "Buy button text",
+      "default": "Buy now"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "text",
+          "id": "learn_more",
+          "label": "Hyperlink text",
+          "default": "Learn more →"
+        },
+        {
+          "type": "product",
+          "id": "first_product",
+          "label": "t:sections.collage.blocks.product.settings.product.label"
+        },
+        {
+          "type": "text",
+          "id": "first_product_title",
+          "label": "Product title"
+        },
+        {
+          "type": "text",
+          "id": "first_product_description",
+          "label": "Description"
+        },
+        {
+          "type": "product",
+          "id": "second_product",
+          "label": "t:sections.collage.blocks.product.settings.product.label"
+        },
+        {
+          "type": "text",
+          "id": "second_product_title",
+          "label": "Product title"
+        },
+        {
+          "type": "text",
+          "id": "second_product_description",
+          "label": "Description"
+        },
+        {
+          "type": "product",
+          "id": "third_product",
+          "label": "t:sections.collage.blocks.product.settings.product.label"
+        },
+        {
+          "type": "text",
+          "id": "third_product_title",
+          "label": "Product title"
+        },
+        {
+          "type": "text",
+          "id": "third_product_description",
+          "label": "Description"
+        }
+      ]
+    },
+    {
+      "type": "info",
+      "name": "Info blocks",
+      "settings": [
+        {
+          "type": "text",
+          "id": "first_upText",
+          "label": "Upper side text",
+          "info": "First product's information"
+        },
+        {
+          "type": "text",
+          "id": "first_downText",
+          "label": "Down side text",
+          "info": "First product's information"
+        },
+        {
+          "type": "text",
+          "id": "second_upText",
+          "label": "Upper side text",
+          "info": "Second product's information"
+        },
+        {
+          "type": "text",
+          "id": "second_downText",
+          "label": "Down side text",
+          "info": "Second product's information"
+        },
+        {
+          "type": "text",
+          "id": "discover_engage",
+          "label": "Hyperlink text",
+          "info": "Discover Engage Plus →"
+        },
+        {
+          "type": "product",
+          "id": "engage_product",
+          "label": "Discoper Loop Plus"
+        },
+        {
+          "type": "text",
+          "id": "third_upText",
+          "label": "Upper side text",
+          "info": "Third product's information"
+        },
+        {
+          "type": "text",
+          "id": "third_downText",
+          "label": "Down side text",
+          "info": "Third product's information"
+        },
+        {
+          "type": "text",
+          "id": "discover_experience",
+          "label": "Hyperlink text",
+          "default": "Discover Engage Plus →"
+        },
+        {
+          "type": "product",
+          "id": "experience_product",
+          "label": "Discoper Experience Plus"
+        }
+      ]
+    },
+    {
+      "type": "icon",
+      "name": "Icon with text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "first_image",
+          "label": "First column's image"
+        },
+        {
+          "type": "text",
+          "id": "first_title",
+          "label": "First column's title"
+        },
+        {
+          "type": "image_picker",
+          "id": "second_image",
+          "label": "Second column's image"
+        },
+        {
+          "type": "text",
+          "id": "second_title",
+          "label": "Second column's title"
+        },
+        {
+          "type": "image_picker",
+          "id": "third_image",
+          "label": "Third column's image"
+        },
+        {
+          "type": "text",
+          "id": "third_title",
+          "label": "Third column's image"
+        }
+      ]
+    },
+    {
+      "type": "divider",
+      "name": "Divider and titles",
+      "settings": [
+        {
+          "type": "text",
+          "id": "first_title",
+          "label": "First column's title"
+        },
+        {
+          "type": "text",
+          "id": "second_title",
+          "label": "Second column's title"
+        },
+        {
+          "type": "text",
+          "id": "third_title",
+          "label": "Third column's title"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image blocks",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "first_image",
+          "label": "First column's image"
+        },
+        {
+          "type": "image_picker",
+          "id": "second_image",
+          "label": "Second column's image"
+        },
+        {
+          "type": "image_picker",
+          "id": "third_image",
+          "label": "Third column's image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Comparison",
+      "blocks": [
+        {
+          "type": "product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

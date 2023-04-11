@@ -1,0 +1,78 @@
+<div class="products_block">
+
+  {%- assign first_product = block.settings.first_product -%}
+  {%- assign second_product = block.settings.second_product -%}
+  {%- assign third_product = block.settings.third_product -%}
+
+  <div class="product_block">
+    <h3 class="product_title">{{ first_product.vendor}} <br> {{ first_product.title }}</h3>
+    <img class="product_image" src="{{ first_product.featured_image | image_url }}" width="221" height="235" loading="lazy">
+    <div class="product_variants">
+      {%- for variant in first_product.variants -%}
+        {%- assign colorSwatch = variant.title | downcase | split: " " | join: "-" | append: ".png" -%}
+        <a class="product_variant-url" href="{{ variant.url }}">
+          <img class="color_swatch" src="{{ colorSwatch | asset_img_url }}" width="25" height="25" loading="lazy">
+        </a>
+      {%- endfor -%}
+    </div>
+    <p class="product_price">{{ first_product.price | money }}</p>
+    {%- if block.settings.first_product_title != blank -%}
+      <div class="product_description">
+        <p>{{ block.settings.first_product_title }}</p>
+        <p>{{ block.settings.first_product_description }}</p>
+      </div>
+    {%- endif -%}
+    <a class="button product_block-button" href="{{ first_product.url }}">{{ section.settings.buy_button }}</a>
+    {%- if block.settings.learn_more != blank -%}
+      <a class="learn_more" href="{{ first_product.url }}">{{ block.settings.learn_more }}</a>
+    {%- endif -%}
+  </div>
+
+  <div class="product_block">
+    <h3 class="product_title">{{ second_product.vendor}} <br> {{ second_product.title }}</h3>
+    <img class="product_image" src="{{ second_product.featured_image | image_url }}" width="221" height="235" loading="lazy">
+    <div class="product_variants">
+      {%- for variant in second_product.variants -%}
+        {%- assign colorSwatch = variant.title | downcase | split: " " | join: "-" | append: ".png" -%}
+        <a class="product_variant-url" href="{{ variant.url }}">
+          <img class="color_swatch" src="{{ colorSwatch | asset_img_url }}" width="25" height="25" loading="lazy">
+        </a>
+      {%- endfor -%}
+    </div>
+    <p class="product_price">{{ second_product.price | money }}</p>
+    {%- if block.settings.second_product_title != blank -%}
+      <div class="product_description">
+        <p>{{ block.settings.second_product_title }}</p>
+        <p>{{ block.settings.second_product_description }}</p>
+      </div>
+    {%- endif -%}
+    <a class="button product_block-button" href="{{ second_product.url }}">{{ section.settings.buy_button }}</a>
+    {%- if block.settings.learn_more != blank -%}
+      <a class="learn_more" href="{{ second_product.url }}">{{ block.settings.learn_more }}</a>
+    {%- endif -%}
+  </div>
+
+  <div class="product_block">
+    <h3 class="product_title">{{ third_product.vendor}} <br> {{ third_product.title }}</h3>
+    <img class="product_image" src="{{ third_product.featured_image | image_url }}" width="221" height="235" loading="lazy">
+    <div class="product_variants">
+      {%- for variant in third_product.variants -%}
+        {%- assign colorSwatch = variant.title | downcase | split: " " | join: "-" | append: ".png" -%}
+        <a class="product_variant-url" href="{{ variant.url }}">
+          <img class="color_swatch" src="{{ colorSwatch | asset_img_url }}" width="25" height="25" loading="lazy">
+        </a>
+      {%- endfor -%}
+    </div>
+    <p class="product_price">{{ third_product.price | money }}</p>
+    {%- if block.settings.third_product_title != blank -%}
+      <div class="product_description">
+        <p>{{ block.settings.third_product_title }}</p>
+        <p>{{ block.settings.third_product_description }}</p>
+      </div>
+    {%- endif -%}
+    <a class="button product_block-button" href="{{ third_product.url }}">{{ section.settings.buy_button }}</a>
+    {%- if block.settings.learn_more != blank -%}
+      <a class="learn_more" href="{{ third_product.url }}">{{ block.settings.learn_more }}</a>
+    {%- endif -%}
+  </div>
+</div>
